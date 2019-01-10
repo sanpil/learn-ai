@@ -18,8 +18,6 @@ Using distinct steps makes it possible to rerun only the steps you need as you t
 
 With Azure Machine Learning, you can use distinct toolkits and frameworks for each step in your pipeline. Azure coordinates between the various compute targets you use so that your intermediate data can be shared with the downstream compute targets easily.
 
-![MLLifecycle](aml-pipelines-concept.png)
-
 
 ### Azure Machine Learning Pipelines Features
 Azure Machine Learning Pipelines optimize for simplicity, speed, and efficiency. The following key concepts make it possible for a data scientist to focus on ML rather than infrastructure.
@@ -34,7 +32,7 @@ Azure Machine Learning Pipelines optimize for simplicity, speed, and efficiency.
 
 ### Notebooks 
 
-In this directory, there are two types of notebooks: 
+Our official Notebook repo is https://aka.ms/aml-pipeline-notebooks. This repo is just for the LearnAI webinar. In the official repro, you will find more extensive documentation.
 
 * The first type of notebooks will introduce you to core Azure Machine Learning Pipelines features. These notebooks below belong in this category, and are designed to go in sequence; they're all located in the "intro-to-pipelines" folder:
 
