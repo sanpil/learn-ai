@@ -10,17 +10,6 @@ Learn more about how to [create your first machine learning pipeline](https://do
 
 With pipelines, you can optimize your workflow with simplicity, speed, portability, and reuse. When building pipelines with Azure Machine Learning, you can focus on what you know best — machine learning — rather than infrastructure.
 
-### Azure Machine Learning Pipelines Features
-Azure Machine Learning Pipelines optimize for simplicity, speed, and efficiency. The following key concepts make it possible for a data scientist to focus on ML rather than infrastructure.
-
-**Unattended execution**: Schedule a few scripts to run in parallel or in sequence in a reliable and unattended manner. Since data prep and modeling can last days or weeks, you can now focus on other tasks while your pipeline is running.
-
-**Mixed and diverse compute**: Use multiple pipelines that are reliably coordinated across heterogeneous and scalable computes and storages. Individual pipeline steps can be run on different compute targets, such as HDInsight, GPU Data Science VMs, and Databricks, to make efficient use of available compute options.
-
-**Reusability**: Pipelines can be templatized for specific scenarios such as retraining and batch scoring. They can be triggered from external systems via simple REST calls.
-
-**Tracking and versioning**: Instead of manually tracking data and result paths as you iterate, use the pipelines SDK to explicitly name and version your data sources, inputs, and outputs as well as manage scripts and data separately for increased productivity.
-
 ### Notebooks 
 
 Our official Notebook repo is https://aka.ms/aml-pipeline-notebooks. This repo is just for the LearnAI webinar. In the official repro, you will find more extensive documentation.
