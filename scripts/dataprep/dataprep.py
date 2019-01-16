@@ -1,8 +1,7 @@
 import argparse
 import os
 
-print("In dataprep.py")
-print("As a data scientist, this is where I use my dataprep code.")
+print("In dataprep.py: as a data scientist, this is where you should fill in your dataprep code.")
 
 parser = argparse.ArgumentParser("dataprep")
 

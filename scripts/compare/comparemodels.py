@@ -1,8 +1,8 @@
 import argparse
 import os
 
-print("In comparemodels.py")
-print("As a data scientist, this is where I use my compare code.")
+print("In comparemodels.py: as a data scientist, this is where you should fill in code to compare two models.")
+
 parser = argparse.ArgumentParser("comparemodels")
 parser.add_argument("--new_model_location", type=str, help="new_model_location directory")
 parser.add_argument("--prod_model_location", type=str, help="prod_model_location directory")

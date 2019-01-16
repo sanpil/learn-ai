@@ -1,8 +1,7 @@
 import argparse
 import os
 
-print("In train.py")
-print("As a data scientist, this is where I use my training code.")
+print("In train.py: as a data scientist, this is where you should fill in your training code.")
 
 parser = argparse.ArgumentParser("train")
 
